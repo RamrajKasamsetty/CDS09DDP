@@ -1,6 +1,6 @@
 library(shiny)
 
-playerNames <- unique(tennisRanks$Player)
+playerNames <-  unique(tennisRanks$Player)
 
 shinyUI(pageWithSidebar(
   headerPanel("Tennis player participation over the years"),
